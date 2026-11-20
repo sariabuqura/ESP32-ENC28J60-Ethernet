@@ -217,31 +217,4 @@ The message length is limited to 100 characters.
              HTML / CSS / JS
 ```
 
-## Security Considerations
-
-- The project is intended for local network testing and development.
-- The HTTP interface does not implement authentication by default.
-- Do not expose the ESP32 web server directly to the public internet.
-- Use network segmentation or firewall restrictions where appropriate.
-- Avoid sending sensitive information through the web interface.
-- Consider adding authentication and HTTPS if adapting the project for a production environment.
-
-## Future Improvements
-
-Potential enhancements include:
-
-- Password-protected dashboard access.
-- Ethernet connection status monitoring.
-- Additional GPIO controls.
-- Sensor integration and monitoring.
-- Live device telemetry.
-- MQTT integration.
-- Secure communication and access control.
-
-## License
-
-This project is provided for educational and development purposes. You are welcome to modify and extend it for your own projects.
-
----
-
 **Built with ESP32 | ENC28J60 | EthernetENC | SH1106 OLED | HTML | CSS | JavaScript**
